@@ -7,5 +7,5 @@ def load_data():
 
 def test_dimension(load_data):
     data = load_data
-    assert data.shape == (10, 3) ,"message"
+    assert data.shape == (1000, 9) ,"message"
 
